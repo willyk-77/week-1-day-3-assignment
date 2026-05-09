@@ -222,12 +222,12 @@ h1 {
 .sticky-nav {
   position: sticky;
   top: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sticky-container {
   max-width: 50vw;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 20px;
 }
 
 .nav-links {
@@ -248,22 +248,33 @@ h1 {
   color: white;
   cursor: pointer;
 }
-#destination-intro {
-  color: white;
-  text-align: center;
-  text-transform: initial;
-  font-size: 0.9rem;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-bottom: orange solid 4px;
-}
+
 .heading {
-  margin-bottom: 10px;
-  color: orange;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 700;
   padding: 5px;
   text-align: center;
 }
 .feature {
   padding: 10px;
+}
+#section-1 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#section-2 {
+  background-color: rgba(13, 219, 242, 0.4);
+}
+
+#section-3 {
+  background-color: rgba(5, 218, 15, 0.4);
+}
+#section-4 {
+  background-color: rgba(215, 241, 47, 0.4);
+}
+#section-5 {
+  background-color: rgba(219, 7, 173, 0.4);
 }
 /* Media Queries */
 /* 1. Tablet  */
