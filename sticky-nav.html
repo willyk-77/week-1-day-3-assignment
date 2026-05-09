@@ -7,140 +7,145 @@
     <title>Sticky Navigation</title>
   </head>
   <body>
-    <header></header>
-    <main>
-      <div class="destination-intro">
-        <h1>This Is Kenya — Nine Places Every Soul Should See</h1>
-        <p>A Journey Through Kenya's Greatest Wonders</p>
-      </div>
-      <div class="wrapper">
-        <section class="destination">
-          <div class="wild-plains masaimara">
-            <h2>Masai Mara</h2>
-            <p>
-              The Maasai Mara is Kenya's most celebrated wildlife reserve,
-              stretching across 1,500 square kilometres of endless golden
-              savannah in the southwest. It is home to the greatest wildlife
-              spectacle on earth — the Great Wildebeest Migration — where over
-              two million wildebeest, zebras, and gazelles thunder across the
-              plains between July and October. The Mara is also one of Africa's
-              finest year-round safari destinations, with some of the densest
-              populations of lions, leopards, cheetahs, and elephants on the
-              continent.
-            </p>
-          </div>
-          <div class="wild-plains lakenakuru">
-            <h2>Lake Nakuru</h2>
-            <p>
-              Lake Nakuru Lake Nakuru sits within a national park in Kenya's
-              Rift Valley and is one of the most visually stunning wildlife
-              destinations on the continent. The alkaline lake is famous for its
-              extraordinary flamingo populations — at peak season, over a
-              million birds coat the shoreline in a vivid pink blanket visible
-              from miles away. Beyond the flamingos, the park is a critical
-              sanctuary for both endangered black and white rhinos, and its
-              dense acacia forests shelter lions, leopards, pythons, and over
-              450 bird species.
-            </p>
-          </div>
-          <div class="wild-plains amboseli">
-            <h2>Amboseli National Park</h2>
-            <p>
-              Amboseli sits at the foot of Mount Kilimanjaro, Africa's highest
-              peak, and offers some of the most iconic wildlife photography
-              backdrops in the world. The park is famous for its large herds of
-              free-roaming elephants, many with sweeping tusks, moving
-              gracefully across dusty plains with the snow-capped mountain
-              rising behind them. Fed by underground streams from Kilimanjaro,
-              Amboseli also supports a rich ecosystem of hippos, buffaloes, over
-              600 bird species, and the semi-nomadic Maasai people who have
-              coexisted with wildlife here for centuries.
-            </p>
-          </div>
-        </section>
-        <section class="destination">
-          <div class="high-peaks mtkenya">
-            <h2>Mount Kenya</h2>
-            <p>
-              Mount Kenya is Africa's second highest mountain and a place of
-              immense spiritual significance to the Kikuyu people, who regard
-              its peaks as the throne of their creator god Ngai. Rising to 5,199
-              metres, the mountain is capped with dramatic glaciers, jagged rock
-              spires, and equatorial snowfields that have inspired climbers and
-              adventurers for generations. The lower slopes are blanketed in
-              ancient montane forests full of elephants, buffaloes, and
-              leopards, while the upper zones transition into otherworldly
-              moorlands of giant lobelias and groundsels found nowhere else on
-              earth.
-            </p>
-          </div>
-          <div class="high-peaks tsavo">
-            <h2>Tsavo National Park</h2>
-            <p>
-              Tsavo National Park Tsavo is Kenya's largest national park,
-              covering nearly 22,000 square kilometres of raw, untamed
-              wilderness split into Tsavo East and Tsavo West. The park is
-              legendary for its red elephants — giants that roll in the
-              iron-rich red soil until their skin glows a deep terracotta — and
-              for its man-eating lions that terrorised railway workers during
-              the building of the Uganda Railway in the 1890s. Tsavo's dramatic
-              landscape includes the Yatta Plateau, one of the world's longest
-              lava flows, the crystal-clear Mzima Springs where hippos glide
-              through underwater, and sweeping open plains stretching endlessly
-              to the horizon.
-            </p>
-          </div>
-        </section>
-        <section class="destination rift-valley">
-          <h2>Hell's Gate National Park</h2>
+    <header class="sticky-nav">
+      <nav class="navigation-bar">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Layout</a></li>
+          <li><a href="#">Html</a></li>
+        </ul>
+      </nav>
+      <h1 id="destination-intro">A Journey Through Kenya's Greatest Wonders</h1>
+    </header>
+    <main class="main-wrapper">
+      <div class="sticky-container">
+        <div class="feature">
+          <h2 class="heading heading-mara">Masai Mara</h2>
+          <p>
+            The Maasai Mara is Kenya's most celebrated wildlife reserve,
+            stretching across 1,500 square kilometres of endless golden savannah
+            in the southwest. It is home to the greatest wildlife spectacle on
+            earth — the Great Wildebeest Migration — where over two million
+            wildebeest, zebras, and gazelles thunder across the plains between
+            July and October. <br /><br />The Mara is also one of Africa's
+            finest year-round safari destinations, with some of the densest
+            populations of lions, leopards, cheetahs, and elephants on the
+            continent.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h2 class="heading heading-naks">Lake Nakuru</h2>
+          <p>
+            Lake Nakuru Lake Nakuru sits within a national park in Kenya's Rift
+            Valley and is one of the most visually stunning wildlife
+            destinations on the continent. The alkaline lake is famous for its
+            extraordinary flamingo populations — at peak season, over a million
+            birds coat the shoreline in a vivid pink blanket visible from miles
+            away. <br /><br />Beyond the flamingos, the park is a critical
+            sanctuary for both endangered black and white rhinos, and its dense
+            acacia forests shelter lions, leopards, pythons, and over 450 bird
+            species.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h2 class="heading heading-amboseli">Amboseli National Park</h2>
+          <p>
+            Amboseli sits at the foot of Mount Kilimanjaro, Africa's highest
+            peak, and offers some of the most iconic wildlife photography
+            backdrops in the world. The park is famous for its large herds of
+            free-roaming elephants, many with sweeping tusks, moving gracefully
+            across dusty plains with the snow-capped mountain rising behind
+            them. <br /><br />Fed by underground streams from Kilimanjaro,
+            Amboseli also supports a rich ecosystem of hippos, buffaloes, over
+            600 bird species, and the semi-nomadic Maasai people who have
+            coexisted with wildlife here for centuries.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h2 class="heading heading-kenya">Mount Kenya</h2>
+          <p>
+            Mount Kenya is Africa's second highest mountain and a place of
+            immense spiritual significance to the Kikuyu people, who regard its
+            peaks as the throne of their creator god Ngai. Rising to 5,199
+            metres, the mountain is capped with dramatic glaciers, jagged rock
+            spires, and equatorial snowfields that have inspired climbers and
+            adventurers for generations.<br /><br />
+            The lower slopes are blanketed in ancient montane forests full of
+            elephants, buffaloes, and leopards, while the upper zones transition
+            into otherworldly moorlands of giant lobelias and groundsels found
+            nowhere else on earth.
+          </p>
+        </div>
+        <div class="feature">
+          <h2 class="heading heading-tsavo">Tsavo National Park</h2>
+          <p>
+            Tsavo National Park Tsavo is Kenya's largest national park, covering
+            nearly 22,000 square kilometres of raw, untamed wilderness split
+            into Tsavo East and Tsavo West. The park is legendary for its red
+            elephants — giants that roll in the iron-rich red soil until their
+            skin glows a deep terracotta — and for its man-eating lions that
+            terrorised railway workers during the building of the Uganda Railway
+            in the 1890s. <br /><br />Tsavo's dramatic landscape includes the
+            Yatta Plateau, one of the world's longest lava flows, the
+            crystal-clear Mzima Springs where hippos glide through underwater,
+            and sweeping open plains stretching endlessly to the horizon.
+          </p>
+        </div>
+        <div class="feature">
+          <h2 class="heading heading-bogoria">Lake Bogoria</h2>
+          <p>
+            Lake Bogoria A scorching alkaline lake sitting in a steep-sided
+            valley north of Nakuru, bubbling with geysers and hot springs that
+            shoot boiling water metres into the air. <br /><br />The lake's
+            caustic waters turn a deep jade green while thousands of flamingos
+            wade its shores, creating one of nature's most surreal and
+            otherworldly landscapes.
+          </p>
+        </div>
+        <div class="feature">
+          <h2 class="heading heading-chyulu">Chyulu Hills</h2>
+          <p>
+            A chain of young volcanic cones — some only 500 years old, making
+            them among the youngest mountains on earth — rising from the plains
+            between Tsavo and Amboseli. <br /><br />The hills are riddled with
+            lava tube caves stretching kilometres underground, and their emerald
+            green slopes contrast dramatically against the surrounding semi-arid
+            savannah.
+          </p>
+        </div>
+        <div class="feature">
+          <h2 class="heading heading-marsabit">Marsabit</h2>
+          <p>
+            A volcanic mountain rising improbably from Kenya's northern desert,
+            its crater lakes shrouded in permanent mist and ancient forest.
+            <br /><br />The mountain is sacred to the Borana and Rendille people
+            who have lived in its shadow for centuries, and its isolation gives
+            it a haunting, end-of-the-world quality found nowhere else in Kenya.
+          </p>
+        </div>
+        <div class="feature">
+          <h2 class="heading heading-hell">Hells Gate</h2>
           <p>
             Hell's Gate National Park is one of Kenya's most dramatically
             beautiful and unique destinations, carved out of the Great Rift
             Valley and shaped by millions of years of volcanic and geothermal
             activity. Towering red and black gorges, roaring geysers, bubbling
             hot springs, and volcanic rock towers create a landscape so striking
-            it reportedly inspired the scenery in Disney's The Lion King. Unlike
-            most Kenyan parks, Hell's Gate allows visitors to explore entirely
-            on foot or bicycle, cycling freely past grazing zebras, buffaloes,
-            and gazelles before descending into the spectacular Fischer's Tower
-            gorge for a guided hike through its steaming, cathedral-like walls.
+            it reportedly inspired the scenery in Disney's The Lion King.
+            <br /><br />Unlike most Kenyan parks, Hell's Gate allows visitors to
+            explore entirely on foot or bicycle, cycling freely past grazing
+            zebras, buffaloes, and gazelles before descending into the
+            spectacular Fischer's Tower gorge for a guided hike through its
+            steaming, cathedral-like walls.
           </p>
-        </section>
-        <section class="destination">
-          <div class="coast diani">
-            <h1>Diani Beach</h1>
-            <p>
-              Diani Beach stretches for over 17 kilometres along Kenya's
-              southern coastline, consistently ranked among the finest beaches
-              in Africa and the world. Its powdery white coral sand, fringed by
-              ancient baobab trees and swaying coconut palms, meets a warm
-              turquoise Indian Ocean protected by a coral reef that keeps the
-              waters calm and perfect for swimming. Beyond the beach, Diani
-              offers world-class diving and snorkelling on pristine coral
-              gardens, kite surfing on open waters, and the Shimba Hills forest
-              just inland, home to rare sable antelopes and endangered
-              elephants.
-            </p>
-          </div>
-          <div class="coast lamu">
-            <h1>Lamu Old Town</h1>
-            <p>
-              Lamu Old Town is Kenya's oldest continuously inhabited town and
-              one of the best-preserved examples of Swahili architecture and
-              culture in East Africa, earning its place on the UNESCO World
-              Heritage List in 2001. The town's narrow winding streets, too
-              tight for cars, are navigated by donkeys and wooden hand carts,
-              transporting visitors back through centuries of Swahili, Arab,
-              Persian, and Portuguese history layered into every carved doorway
-              and coral stone building. Lamu's culture remains deeply rooted in
-              its Islamic heritage, expressed through its mosques, the annual
-              Lamu Cultural Festival, and the graceful wooden dhows that have
-              sailed these waters for over 700 years.
-            </p>
-          </div>
-        </section>
-        <section class="destination">
-          <h1>Nairobi National park</h1>
+        </div>
+        <div class="feature">
+          <h2 class="heading heading-nrb">Nairobi National Park</h2>
           <p>
             Nairobi National Park is one of the world's most extraordinary
             wildlife paradoxes — a fully wild game reserve sitting just seven
@@ -148,12 +153,12 @@
             people. Within its 117 square kilometres, lions sleep under acacia
             trees, rhinos graze on open plains, and giraffes stride across
             grasslands, all with Nairobi's glittering skyline rising
-            dramatically on the horizon behind them. The park is also Kenya's
-            most important rhino sanctuary and home to over 400 bird species,
-            making it a critical conservation area that doubles as the most
-            accessible safari destination in Africa.
+            dramatically on the horizon behind them. <br /><br />The park is
+            also Kenya's most important rhino sanctuary and home to over 400
+            bird species, making it a critical conservation area that doubles as
+            the most accessible safari destination in Africa.
           </p>
-        </section>
+        </div>
       </div>
     </main>
     <footer></footer>
