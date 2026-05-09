@@ -210,4 +210,27 @@ h1 {
   margin-bottom: 20px;
   color: white;
 }
+
+/* **********************STICKY NAVIGATION PAGE *********************************************** */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 2fr);
+  gap: 40px;
+  background-image: url("images\Ai.jpg");
+  width: 100%;
+}
+
 /* Media Queries */
+/* 1. Tablet  */
+@media (max-width: 1024px) {
+  .main-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 2. Smaller Phones */
+@media (max-width: 728px) {
+  .main-container {
+    grid-template-columns: repeat(1fr);
+  }
+}
