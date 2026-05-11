@@ -22,6 +22,15 @@ body {
   font-family: "Barlow", sans-serif;
   padding: 5px;
 }
+.wkm-logotext {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.navlinks a {
+  text-decoration: none;
+  color: white;
+}
 .navlinks a:hover {
   background-color: rgba(241, 139, 5, 0.7);
 }
